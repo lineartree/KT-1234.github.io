@@ -14,7 +14,7 @@ nav {
 	position: fixed;
 	left: 0px;
 	width: 200px;
-	height: 1800px;
+	height: -webkit-fill-available;
 	background-color: rgba(25,11,1,0.9);
 }
 
@@ -145,6 +145,7 @@ header .fb:hover {
 	color: white;
 	background-color: rgba(25,11,1,0.7);
 	padding: 20px;
+	position: relative;
 }
 
 .footer p {
